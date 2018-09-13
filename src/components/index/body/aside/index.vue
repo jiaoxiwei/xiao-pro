@@ -1,7 +1,7 @@
 <template>
-  <block class="body-aside">
+  <x-block class="body-aside">
     aside
-  </block>
+  </x-block>
 </template>
 
 <script>

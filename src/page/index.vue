@@ -1,9 +1,11 @@
 <template>
-  <block class="container">
-    <index-head />
-    <index-body />
-    <index-foot />
-  </block>
+  <x-block class="container">
+    <x-block v-if="false">
+      <index-head />
+      <index-body />
+      <index-foot />
+    </x-block>
+  </x-block>
 </template>
 
 <script>

@@ -1,19 +1,19 @@
 <template>
-    <block class="index-foot">
-      <block class="link">
+    <x-block class="index-foot">
+      <x-block class="link">
         <a href="javascript:;">网站首页</a>
-        <block>-</block>
+        <x-block>-</x-block>
         <a href="javascript:;">关于我们</a>
-        <block>-</block>
+        <x-block>-</x-block>
         <a href="javascript:;">联系我们</a>
-        <block>-</block>
+        <x-block>-</x-block>
         <a href="javascript:;">错误反馈</a>
-      </block>
-      <block class="rights">
+      </x-block>
+      <x-block class="rights">
         Copyright ©2018 xiaopro. All Rights Reserved. Current version is 1.0.0<br>
         渝ICP备14020137号
-      </block>
-    </block>
+      </x-block>
+    </x-block>
 </template>
 
 <script>

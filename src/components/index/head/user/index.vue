@@ -1,7 +1,7 @@
 <template>
-  <block class="head-user">
-    <block class="head-user-login">登陆</block>
-  </block>
+  <x-block class="head-user">
+    <x-block class="head-user-login">登陆</x-block>
+  </x-block>
 </template>
 
 <script>

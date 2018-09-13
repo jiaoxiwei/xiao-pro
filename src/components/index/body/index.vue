@@ -1,25 +1,25 @@
 <template>
-  <block class="index-body">
-    <row>
-      <block>
-        <tip-label>最新作品</tip-label>
-      </block>
+  <x-block class="index-body">
+    <x-row>
+      <x-block>
+        <x-title-label>最新作品</x-title-label>
+      </x-block>
       <body-content />
       <x-page />
-    </row>
-  </block>
+    </x-row>
+  </x-block>
 </template>
 
 <script>
 import BodyAside from './aside/index.vue'
 import BodyContent from './content/index.vue'
-import TipLabel from '../../tip-label/index.vue'
+import XTitleLabel from '../../x-title-label/index.vue'
 import XPage from '../../x-page/index.vue'
 export default {
   name: 'index',
   components: {
     XPage,
-    TipLabel,
+    XTitleLabel,
     BodyAside,
     BodyContent
   }

@@ -1,26 +1,26 @@
 <template>
-  <block class="content-item">
-    <block class="content-inside">
-      <block class="content-img" />
-      <block class="content-desc">
+  <x-block class="content-item">
+    <x-block class="content-inside">
+      <x-block class="content-img" />
+      <x-block class="content-desc">
         Vue.js 本身就是一个独立的前端框架，在浏览器中完全能够不基于 Weex 容器渲染。因此，针对 Weex 平台扩展 Vue.js 的 Web 端组件，和直接使用 Vue.js 开发一个 Web 组件是一样的。具体的组件编写方法可以参考其官方文档：组件 ，另外建议使用 .vue 格式的文件编写组件，使用方法参考：单文件组件。
-      </block>
-      <block class="content-icon">
-        <block class="content-icon-item">
+      </x-block>
+      <x-block class="content-icon">
+        <x-block class="content-icon-item">
           <img src="./img/view.png">
-          <block>15984</block>
-        </block>
-        <block class="content-icon-item">
+          <x-block>15984</x-block>
+        </x-block>
+        <x-block class="content-icon-item">
           <img src="./img/down.png">
-          <block>下载</block>
-        </block>
-        <block class="content-icon-item">
+          <x-block>下载</x-block>
+        </x-block>
+        <x-block class="content-icon-item">
           <img src="./img/view.png">
-          <block>在线预览</block>
-        </block>
-      </block>
-    </block>
-  </block>
+          <x-block>在线预览</x-block>
+        </x-block>
+      </x-block>
+    </x-block>
+  </x-block>
 </template>
 
 <script>

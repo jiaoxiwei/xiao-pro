@@ -1,7 +1,7 @@
 <template>
-  <block class="head-logo">
+  <x-block class="head-logo">
     <img src="../img/logo.png">
-  </block>
+  </x-block>
 </template>
 
 <script>

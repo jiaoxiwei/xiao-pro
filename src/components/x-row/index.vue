@@ -1,7 +1,7 @@
 <template>
-  <block class="clear-wrap">
+  <x-clear-wrap class="rows">
     <slot></slot>
-  </block>
+  </x-clear-wrap>
 </template>
 
 <script>
@@ -11,8 +11,13 @@ export default {
 </script>
 
 <style scoped>
-.clear-wrap:before,
-.clear-wrap:after{
+.rows{
+  width: 980px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.rows:after,
+.rows:before{
   content: '';
   display: block;
   clear: both;

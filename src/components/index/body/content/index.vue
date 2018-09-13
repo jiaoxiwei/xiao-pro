@@ -1,7 +1,7 @@
 <template>
-  <clear-wrap class="body-content">
+  <x-clear-wrap class="body-content">
     <content-item v-for="(item, index) in [1,2,3,4,5]" :key="index" />
-  </clear-wrap>
+  </x-clear-wrap>
 </template>
 
 <script>

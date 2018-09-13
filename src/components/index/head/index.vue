@@ -1,11 +1,11 @@
 <template>
-  <block class="index-head">
-    <row>
+  <x-block class="index-head">
+    <x-row>
       <head-logo />
       <head-nav />
       <head-user />
-    </row>
-  </block>
+    </x-row>
+  </x-block>
 </template>
 
 <script>

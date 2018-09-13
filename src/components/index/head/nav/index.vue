@@ -1,10 +1,10 @@
 <template>
-  <block class="head-nav">
-    <block
+  <x-block class="head-nav">
+    <x-block
       class="head-nav-item"
       v-for="(item, index) in navRouter" :key="index"
-    >{{item.name}}</block>
-  </block>
+    >{{item.name}}</x-block>
+  </x-block>
 </template>
 
 <script>

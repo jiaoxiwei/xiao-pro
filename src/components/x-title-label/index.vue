@@ -1,7 +1,7 @@
 <template>
-  <block class="tip-label">
-    <block><slot></slot></block>
-  </block>
+  <x-block class="tip-label">
+    <x-block><slot></slot></x-block>
+  </x-block>
 </template>
 
 <script>

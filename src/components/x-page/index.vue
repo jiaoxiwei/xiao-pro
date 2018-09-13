@@ -1,15 +1,15 @@
 <template>
-  <block class="x-page">
-    <block class="x-page-item x-page-prev">上一页</block>
-    <block class="x-page-item x-page-num">1</block>
-    <block class="x-page-item x-page-num">2</block>
-    <block class="x-page-item x-page-num">3</block>
-    <block class="x-page-item x-page-num">4</block>
-    <block class="x-page-item x-page-num">5</block>
-    <block class="x-page-item x-page-num">6</block>
-    <block class="x-page-item x-page-num">...</block>
-    <block class="x-page-item x-page-next">下一页</block>
-  </block>
+  <x-block class="x-page">
+    <x-block class="x-page-item x-page-prev">上一页</x-block>
+    <x-block class="x-page-item x-page-num">1</x-block>
+    <x-block class="x-page-item x-page-num">2</x-block>
+    <x-block class="x-page-item x-page-num">3</x-block>
+    <x-block class="x-page-item x-page-num">4</x-block>
+    <x-block class="x-page-item x-page-num">5</x-block>
+    <x-block class="x-page-item x-page-num">6</x-block>
+    <x-block class="x-page-item x-page-num">...</x-block>
+    <x-block class="x-page-item x-page-next">下一页</x-block>
+  </x-block>
 </template>
 
 <script>
