@@ -11,8 +11,24 @@ import XBlock from './components/x-block/index.vue'
 import XButton from './components/x-button/index.vue'
 import XClearWrap from './components/x-clear-wrap/index.vue'
 
+import XTable from './components/x-table/index.vue'
+import XTableBody from './components/x-table/x-tbody/index.vue'
+import XTableHead from './components/x-table/x-thead/index.vue'
+import XTableFoot from './components/x-table/x-tfoot/index.vue'
+import XTableTd from './components/x-table/x-td/index.vue'
+import XTableTr from './components/x-table/x-tr/index.vue'
+import XTableTh from './components/x-table/x-th/index.vue'
+
 Vue.config.productionTip = false
 Vue.mixin(VueMixin)
+
+Vue.component('x-table', XTable)
+Vue.component('x-table-head', XTableHead)
+Vue.component('x-table-body', XTableBody)
+Vue.component('x-table-foot', XTableFoot)
+Vue.component('x-table-td', XTableTd)
+Vue.component('x-table-tr', XTableTr)
+Vue.component('x-table-th', XTableTh)
 
 Vue.component('x-row', XRow)
 Vue.component('x-mask', XMask)
