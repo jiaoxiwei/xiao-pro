@@ -1,5 +1,6 @@
 <template>
   <clear-wrap class="body-content">
+    <div>asd</div>
     <content-item v-for="(item, index) in [1,2,3,4,5]" :key="index" />
   </clear-wrap>
 </template>
