@@ -1,4 +1,4 @@
-# xiaopro
+# XiaoPro
 
 > A Vue.js project
 
